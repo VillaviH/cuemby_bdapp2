@@ -1,4 +1,3 @@
-FROM nginx
+FROM mysql:latest
 LABEL project=demo
 WORKDIR /app
-COPY html/ /usr/share/nginx/html
